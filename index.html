@@ -12,22 +12,32 @@
             width: 100%;
         }
         td, th {
-            border: 1px solid #dddddd;
+            border: 1px solid yellow;
             text-align: center;
             padding: 8px;
         }
-        tr:nth-child(even) {
-            background-color: #eeeeee;
+        h1{
+            color: firebrick;
+        }
+        body{
+            background-color: black;
+            color: white;
         }
         b{
-            color: red;
+            color: firebrick;
+        }
+        s{
+            color: yellow;
+        }
+        .timeday{
+            background-color: firebrick;
         }
     </style>
 </head>
 <body>
-    <h1>5-11 August</h1>
+    <h1><u>5-11 August</u></h1>
     <table>
-        <tr>
+        <tr class="timeday">
         <th>TIME / DAY</th>
         <th>Monday (5th August)</th>
         <th>Tuesday (6th August)</th>
@@ -39,7 +49,7 @@
         </tr>
         
         <tr>
-        <th>7AM - 7PM</th>
+        <th class="timeday">7AM - 7PM</th>
         <td>Md</td>
         <td>Md, Fiza</td>
         <td>Md, Fiza</td>
@@ -50,7 +60,7 @@
         </tr>
     
         <tr>
-        <th>3PM - 12AM</th>
+        <th class="timeday">3PM - 12AM</th>
         <td>Erina</td>
         <td>Erina, Ain</td>
         <td>Erina, Ain</td>
@@ -61,7 +71,7 @@
         </tr>
     
         <tr>
-        <th>7PM - 7AM</th>
+        <th class="timeday">7PM - 7AM</th>
         <td><s>OK</s> Thesin</td>
         <td>OK</td>
         <td>OK</td>
@@ -71,10 +81,11 @@
         <td>OK</td>
         </tr>
     </table>
+    <br>
 
-    <h1>12-18 August</h1>
+    <h1><u>12-18 August</u></h1>
     <table>
-        <tr>
+        <tr class="timeday">
         <th>TIME / DAY</th>
         <th>Monday (12th August)</th>
         <th>Tuesday (13th August)</th>
@@ -86,7 +97,7 @@
         </tr>
         
         <tr>
-        <th>7AM - 7PM</th>
+        <th class="timeday">7AM - 7PM</th>
         <td>Md, <s>Fiza</s>, Khairul (<b>NEW</b>)</td>
         <td>Md, Fiza</td>
         <td><s>Md</s>, Fiza</td>
@@ -97,7 +108,7 @@
         </tr>
     
         <tr>
-        <th>3PM - 12AM</th>
+        <th class="timeday">3PM - 12AM</th>
         <td>Erina, Ain</td>
         <td>Erina, Ain</td>
         <td>Erina, <s>Ain</s></td>
@@ -108,7 +119,7 @@
         </tr>
     
         <tr>
-        <th>7PM - 7AM</th>
+        <th class="timeday">7PM - 7AM</th>
         <td>OK</td>
         <td>OK, <s>Khairul</s></td>
         <td>OK, Khairul</td>
@@ -118,5 +129,55 @@
         <td>OK, Khairul</td>
         </tr>
     </table>
+    <br>
+
+    <h1><u>19-25 August</u></h1>
+    <table>
+        <tr class="timeday">
+        <th>TIME / DAY</th>
+        <th>Monday (19th August)</th>
+        <th>Tuesday (20th August)</th>
+        <th>Wednesday (21st August)</th>
+        <th>Thursday (22nd August)</th>
+        <th>Friday (23rd August)</th>
+        <th>Saturday (24th August)</th>
+        <th>Sunday (25th August)</th>
+        </tr>
+        
+        <tr>
+        <th class="timeday">7AM - 7PM</th>
+        <td><s>Md</s>, Fiza, Erina</td>
+        <td><s>OK</s>, Fiza, Erina</td>
+        <td>OK, Fiza, <s>Erina</s></td>
+        <td>OK, Fiza, Erina</td>
+        <td>OK, <s>Fiza</s>, Erina</td>
+        <td>OK, Fiza, Erina</td>
+        <td>OK, Fiza, <s>Erina</s></td>
+        </tr>
+    
+        <tr>
+        <th class="timeday">3PM - 12AM</th>
+        <td>Ain</td>
+        <td>Ain</td>
+        <td>Ain</td>
+        <td><s>Ain</s>, Thesin</td>
+        <td>Ain</td>
+        <td><s>Ain</s>, Thesin</td>
+        <td>Ain</td>
+        </tr>
+    
+        <tr>
+        <th class="timeday">7PM - 7AM</th>
+        <td>OK, <s>Khairul</s></td>
+        <td>Md, Khairul</td>
+        <td>Md, Khairul</td>
+        <td>Md, Khairul</td>
+        <td>Md, Khairul</td>
+        <td>Md, Khairul</td>
+        <td>Md, Khairul</td>
+        </tr>
+    </table>
+    <br>
+    
 </body>
 </html>
